@@ -103,3 +103,16 @@
         transform: translateY(-50%);
     }
 }
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.more-btn {
+    font-size: 2rem;
+    background-color: transparent;
+
+    margin-left: 28px;
+    padding: 4px 8px 4px 20px;
+}
