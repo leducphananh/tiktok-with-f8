@@ -11,7 +11,10 @@
 .inner {
     height: 100%;
     width: var(--default-layout-width);
+
     margin: auto;
+    padding: 0 var(--default-layout-horizontal-spacer);
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,7 +38,7 @@
 
     input {
         height: 100%;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         flex: 1;
 
         color: var(--black);
@@ -115,4 +118,6 @@
 
     margin-left: 28px;
     padding: 4px 8px 4px 20px;
+
+    cursor: pointer;
 }

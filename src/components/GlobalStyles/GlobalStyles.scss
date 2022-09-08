@@ -10,12 +10,14 @@
     // Default layout
     --default-layout-header-height: 60px;
     --default-layout-width: 1150px;
+    --default-layout-horizontal-spacer: 24px;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fira Code', monospace;
 }
 
 html {
@@ -23,7 +25,6 @@ html {
 }
 
 body {
-    font-family: 'Fira Code', monospace;
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
