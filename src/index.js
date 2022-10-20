@@ -5,7 +5,6 @@ import reportWebVitals from './reportWebVitals';
 import GlobalStyles from './components/GlobalStyles';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-document.title = 'Tiktok by anhldp';
 root.render(
     <React.StrictMode>
         <GlobalStyles>
